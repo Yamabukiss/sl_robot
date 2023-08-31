@@ -1,4 +1,4 @@
-robot_radius: 0.12
+robot_radius: 0.1
 
 map_type: costmap
 

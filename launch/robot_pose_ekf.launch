@@ -8,7 +8,7 @@
     <param name="sensor_topic" type="string" value="/sensor"/>
     <param name="output_frame" type="string" value="$(arg output_frame)"/>
     <param name="base_footprint_frame" type="string" value="base_footprint"/>
-    <param name="freq" type="double" value="30.0"/>
+    <param name="freq" type="double" value="80.0"/>
     <param name="sensor_timeout" type="double" value="1.0"/>
     <param name="odom_used" type="bool" value="true"/>
     <param name="imu_used" type="bool" value="true"/>

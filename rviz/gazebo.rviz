@@ -134,6 +134,8 @@ Visualization Manager:
           Value: true
         camera:
           Value: false
+        fixed:
+          Value: true
         front_wheel:
           Value: false
         imu:
@@ -160,6 +162,8 @@ Visualization Manager:
       Show Names: true
       Tree:
         map:
+          fixed:
+            {}
           odom:
             base_footprint:
               base_link:
@@ -172,13 +176,13 @@ Visualization Manager:
                   {}
                 imu:
                   {}
+                left_wheel:
+                  {}
+                right_wheel:
+                  {}
                 support:
                   laser:
                     {}
-              left_wheel:
-                {}
-              right_wheel:
-                {}
       Update Interval: 0
       Value: true
     - Angle Tolerance: 0.10000000149011612
@@ -393,7 +397,7 @@ Visualization Manager:
   Global Options:
     Background Color: 48; 48; 48
     Default Light: true
-    Fixed Frame: map
+    Fixed Frame: fixed
     Frame Rate: 30
   Name: root
   Tools:
@@ -417,7 +421,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 0.04451858252286911
+      Distance: 2.71883225440979
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -425,17 +429,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: -0.1135668009519577
-        Y: 0.5750387907028198
-        Z: 0.6495286822319031
+        X: -0.19990582764148712
+        Y: 0.6403480172157288
+        Z: 0.5480015277862549
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.7303985357284546
+      Pitch: 0.5953986644744873
       Target Frame: <Fixed Frame>
-      Yaw: 1.9203977584838867
+      Yaw: 1.5303981304168701
     Saved: ~
 Window Geometry:
   Camera:

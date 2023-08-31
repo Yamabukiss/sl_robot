@@ -24,6 +24,7 @@
             <publishWheelJointState>false</publishWheelJointState>
             <publishTf>1</publishTf>
             <broadcastTF>1</broadcastTF>
+<!--            <publishOdomTF>true</publishOdomTF>-->
             <publishOdomTF>false</publishOdomTF>
             <robotNamespace>/</robotNamespace>
             <alwaysOn>true</alwaysOn>
