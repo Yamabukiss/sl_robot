@@ -134,8 +134,6 @@ Visualization Manager:
           Value: true
         camera:
           Value: false
-        fixed:
-          Value: true
         front_wheel:
           Value: false
         imu:
@@ -162,8 +160,6 @@ Visualization Manager:
       Show Names: true
       Tree:
         map:
-          fixed:
-            {}
           odom:
             base_footprint:
               base_link:
@@ -280,7 +276,7 @@ Visualization Manager:
       Channel Name: intensity
       Class: rviz/PointCloud2
       Color: 255; 255; 255
-      Color Transformer: RGB8
+      Color Transformer: Intensity
       Decay Time: 0
       Enabled: false
       Invert Rainbow: false
@@ -293,7 +289,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.009999999776482582
       Style: Flat Squares
-      Topic: /camera/depth/points
+      Topic: /move_base/TrajectoryPlannerROS/cost_cloud
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
@@ -397,7 +393,7 @@ Visualization Manager:
   Global Options:
     Background Color: 48; 48; 48
     Default Light: true
-    Fixed Frame: fixed
+    Fixed Frame: map
     Frame Rate: 30
   Name: root
   Tools:
@@ -421,7 +417,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 2.71883225440979
+      Distance: 4.44426155090332
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -429,17 +425,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: -0.19990582764148712
-        Y: 0.6403480172157288
-        Z: 0.5480015277862549
+        X: -0.5713991522789001
+        Y: 1.168918490409851
+        Z: -0.011118650436401367
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.5953986644744873
+      Pitch: 0.7203985452651978
       Target Frame: <Fixed Frame>
-      Yaw: 1.5303981304168701
+      Yaw: 1.4753974676132202
     Saved: ~
 Window Geometry:
   Camera:

@@ -299,8 +299,8 @@
       <publishWheelJointState>false</publishWheelJointState>
       <publishTf>1</publishTf>
       <broadcastTF>1</broadcastTF>
-      <!--            <publishOdomTF>true</publishOdomTF>-->
-      <publishOdomTF>false</publishOdomTF>
+      <publishOdomTF>true</publishOdomTF>
+      <!--            <publishOdomTF>false</publishOdomTF>-->
       <robotNamespace>/</robotNamespace>
       <alwaysOn>true</alwaysOn>
       <updateRate>100.0</updateRate>
@@ -312,10 +312,10 @@
       <wheelTorque>30</wheelTorque>
       <wheelAcceleration>1.8</wheelAcceleration>
       <commandTopic>cmd_vel</commandTopic>
-      <!--            <odometryFrame>odom</odometryFrame>-->
-      <!--            <odometryTopic>odom</odometryTopic>-->
-      <odometryFrame>wheel_odom</odometryFrame>
-      <odometryTopic>wheel_odom</odometryTopic>
+      <odometryFrame>odom</odometryFrame>
+      <odometryTopic>odom</odometryTopic>
+      <!--            <odometryFrame>wheel_odom</odometryFrame>-->
+      <!--            <odometryTopic>wheel_odom</odometryTopic>-->
       <robotBaseFrame>base_footprint</robotBaseFrame>
     </plugin>
   </gazebo>

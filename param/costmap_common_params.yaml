@@ -1,11 +1,11 @@
-robot_radius: 0.1
+robot_radius: 0.15
 
 map_type: costmap
 
 obstacle_layer:
   enabled: true
   combination_method: 1
-  track_unknown_space: false
+  track_unknown_space: true
   obstacle_range: 1.0
   raytrace_range: 1.5
   observation_sources: scan

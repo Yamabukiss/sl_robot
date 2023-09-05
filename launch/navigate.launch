@@ -5,7 +5,8 @@
         <rosparam file="$(find sl_robot)/param/local_costmap_params.yaml" command="load" />
         <rosparam file="$(find sl_robot)/param/global_costmap_params.yaml" command="load" />
 <!--         <rosparam file="$(find sl_robot)/param/move_base_params.yaml" command="load" /> -->
-        <rosparam file="$(find sl_robot)/param/local_planner_params.yaml" command="load" />
+<!--        <rosparam file="$(find sl_robot)/param/base_local_planner_params.yaml" command="load" />-->
+        <rosparam file="$(find sl_robot)/param/dwa_local_planner_params.yaml" command="load" />
         <rosparam file="$(find sl_robot)/param/global_planner_params.yaml" command="load" />
     </node>
 </launch>
